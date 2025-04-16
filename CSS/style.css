@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Tahoma&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
+
+body {
+    overflow-x: hidden;
+}
+
+/* Background video styling */
+#bgv {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    animation: none;
+}
+
+circle {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 255, 0);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 2;
+}
+
+header {
+	position: absolute;
+	top: 0px;
+	left: 0;
+	width: 84.4%;
+	padding: 30px 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 100;
+}
+
+header img {
+	margin-right: 50px;
+	margin-left: 50px;
+	width: 75px;
+	height: auto;
+}
+
+.navigation {
+    font-family: 'tahoma', sans-serif;
+    font-size: 0.8em;
+	display: flex;
+	align-items: center;
+}
+
+.navigation a {
+	text-decoration: none;
+	color: #fff;
+	padding: 6px 15px;
+	border-radius: 10px;
+	margin: 0 30px;
+	font-weight: 100vh;
+}
+
+.navigation a:hover, 
+.navigation a:active {
+	background: #ffee00;
+	color: #000000;
+}
+
+/* Glass effect styling for .bgclass */
+.glassbg {
+    position: absolute;
+    margin-bottom: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1250px;
+    height: 600px;
+    background: rgba(255, 255, 255, 0.062);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.769);
+    backdrop-filter: blur(13px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.home .Slogan {
+    position: relative;
+    margin-top: 13%;
+    font-family: 'Italiana', sans-serif;
+    font-size: 9em;
+    color: #fff;
+    text-shadow: 10px 10px 12px rgba(0, 0, 0, .2);
+    line-height: 0.8;
+    text-align: center;
+    font-weight: 100;
+    z-index: 10;
+}
+
+.home .Slogandis {
+    position: absolute;
+    left: 32.5%;
+    top: 67%;
+    font-family: 'tahoma', sans-serif;
+    font-size: 0.8em;
+    color: #fff;
+    text-shadow: 10px 10px 12px rgba(0, 0, 0, .2);
+    line-height: 1.3;
+    text-align: center;
+    font-weight: 100;
+    z-index: 10;
+}
+
+.sdot {
+    width: 3.5px;
+    height: 3.5px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 24%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.scrollcontainer {
+	position: absolute;
+	top: 530px;
+    left: 47%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .scroll-shape {
+        width: 15px;
+        height: 30px;
+        border: 2px solid #ffffff;
+        border-radius: 11px;
+        margin-bottom: 5px;
+        position: relative; /* Make this relative! */
+        overflow: hidden; /* add this */
+  }
+
+  .scroll-text {
+    font-family: 'tahoma', sans-serif;
+    font-size: 9px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+}
+
+.os {
+	position: relative;
+	padding: 220px;
+	top: 150px;
+	width: 810px;
+    height: 800px;
+    background: rgba(0, 0, 0, 0.221);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.769);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    z-index: 1;
+}
+
+.os .oshead {
+    position: absolute;
+    width: 810px;
+    top: 1%;
+    right: 2%;
+    font-family: 'Italiana', sans-serif;
+    font-size: 3em;
+    color: #ffffff;
+    text-shadow: 10px 10px 12px rgba(0, 0, 0, .2);
+    font-weight: 500;
+    letter-spacing: 0.3em;
+    z-index: 3;
+}
+
+.os_svs {
+    position: absolute;
+    width: 1085px;
+    height: 450px;
+    top: 550px;
+    left: 80px;
+    border-radius: 20px;
+    background-color: #ffffffbc;
+}
+
+.os .egxs {
+    position: absolute;
+    top: -400px;
+    width: 100%;
+    height: 100%;
+}
